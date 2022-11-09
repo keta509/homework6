@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" thread-count="2" name="Automation Suite">
+    <test parallel="tests" name="LogIn">
+        <classes>
+            <class name="open.work6"/>
+        </classes>
+    </test>
+</suite>
